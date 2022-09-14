@@ -1,0 +1,305 @@
+/* -------
+   GENERAL
+   ------- */
+   
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* ----------
+   TYPOGRAPHY
+   ---------- */
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: #261A4C;
+    padding: 10px 16px;
+    background-color: #fff;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0 0 0.25em;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #202020;
+}
+
+.red {
+    background-color: #C50001;
+    color: #fff;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+/* -----
+   ICONS
+   ----- */
+
+i {
+    font-size: 20px;
+    color: #909090;
+    padding-left: 20px;
+}
+
+i:hover {
+    color: #fff;
+}
+
+#spoti-icon {
+    color: #fff;;
+}
+
+/* -----------
+   CARD BACKGROUNDS
+   ----------- */
+
+.bg-green {
+    background-color: #518439;
+}
+
+.bg-orange {
+    background-color: #A66A0E;
+}
+
+.bg-violet {
+    background-color: #803FBF;
+}
+
+.bg-lightblue {
+    background-color: #0C7BC1;
+}   
+
+/* -------
+   BUTTONS
+   ------- */
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ED0000;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px 36px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    scale: 1;
+    transition: 300ms;
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #C70100;
+    scale: 1.05;
+}
+
+.btn-card {
+    border: 1px solid #fff;
+    background-color: transparent;
+    justify-content: center;
+    padding: 6px 16px;
+    font-size: 12px;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* ------
+   LAYOUT
+   ------ */
+
+.space-bottom {
+    padding-bottom: 100px;
+}
+
+.spaces {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.txt-padding {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-description {
+    align-items: center;
+}
+
+.container-podcasts {
+    justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centered {
+    text-align: center;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* ------
+   HEADER
+   ------ */
+
+header {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+h1 img {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#CHL-logo {
+    width: 160px;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about {
+    text-decoration: none;
+    color: #909090;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about:hover {
+    color: #fff;
+}
+
+/* ------
+   SPLASH
+   ------ */
+
+#splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../images/bg.png") center right fixed;
+    background-color: #332369;
+    background-repeat: no-repeat;
+}
+
+#spoti-player {
+    width: 100%;
+}
+
+/* --------
+    PODCAST
+    GALLERY
+    ------- */
+
+#podcast-gallery {
+    background-color: #FDBC50;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.container-description img {
+    width: 300px;
+}
+
+.card {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 230px;
+    flex-grow: 1;
+    min-height: 290px;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+}
+
+.card-body {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.card-img img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+
+/* ------
+   FOOTER
+   ------ */
+
+footer {
+    background-color: #1A1A1A;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#copyright {
+    letter-spacing: 4px;
+    color: #fff;
+    display: flex;  
+}
+
+#winter-logos {
+    display: flex;
+    padding-top: 8px;
+}
+
+#winter-logos img {
+    width: 80px;
+}       
+
+#winter-logos img:nth-child(2) {
+    margin-left: 18px;
+} 
